@@ -1,0 +1,378 @@
+* {
+    background-color:none;
+    color: #000;
+    border:none;
+}
+
+/* WORD STYLING */
+
+
+
+h2 {
+  background: none;
+  color: aliceblue;
+  font: 1.6em "Helvetica", sans-serif;
+
+}
+
+h4 {
+  background: none;
+  color: rgb(70, 186, 240);
+  font: 1.0em "Helvetica", sans-serif;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.work_style_left {
+
+  font: 1.6em "Helvetica", sans-serif;
+  text-decoration: underline  ;
+}
+
+.pink_text {
+  color: rgb(238, 38, 81);
+  background-color: none;
+}
+
+.orange_text {
+  color: orange;
+  font: 1.6em "Helvetica", sans-serif;
+}
+
+.grey_text {
+  color: rgb(41, 40, 40);
+}
+
+.blue_text {
+  color: rgb(70, 186, 240);
+}
+
+
+/* FLEX BOX STYLING*/
+
+
+.insideborder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.horiz {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.vert {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.full_page {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: aqua;
+}
+
+  .full_flex{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .onehundred_vert{
+    width: 98%;
+  }
+
+  .ninety_horiz{
+    height: 90%;
+  }
+
+  .forty_horiz{
+    height: 40%;
+    background-color: white;
+  }
+
+  .forty_vert {
+    width: 40%;
+    height: 140%;
+    background-color: #000;
+  }
+
+  .forty_vert_extended {
+    width: 40%;
+    background-color: #000;
+    height: 140%;
+  }
+
+  .seventy_vert {
+    width: 70%;
+  }
+
+  .sixty_vert_extended{
+    width: 60%;
+    height: 140%;
+  }
+
+  .sixty_vert_short{
+    width: 60%;
+  }
+
+  .fortyeight_vert{
+    height: 48%;
+  }
+
+  .forty_vert_short{
+    width: 60%;
+    margin-right: -10%;
+  }
+
+  .sixty_vert {
+    width: 60%;
+    height: 140%;
+  }
+
+  .sixtyfive_vert {
+    width: 65%;
+  }
+
+  .fifty_vert {
+      width: 50% ;
+  }
+
+  .thirtyfive_vert {
+    padding-top: 200;
+    width: 35%;
+  }
+
+  .thirty_vert {
+    width: 30%;
+  }
+
+  .eightyfive_vert {
+    width: 85%;
+  }
+
+  .fifteen_vert {
+    width: 15%;
+  }
+
+  .thirty_vert {
+    width: 30%;;
+  }
+
+  .thirty_horiz {
+    height: 30%;;
+  }
+
+  .third_vert {
+    width: 33.3%;
+    text-align: center;
+    background-color: rgb(41, 40, 40);
+    color: white;
+  }
+
+  .right_aligned {
+    text-align: right;
+  }
+
+  .quarter_width {
+    height: 25%;
+  }
+
+  .fifteen_width {
+    height: 15%;
+    text-align: right;
+  }
+
+  .fifth_horiz {
+    height: 20%;
+  }
+  
+  .fifth_vert {
+    width: 20%;
+  }
+
+  .fifteen_vert {
+    width: 15%;
+  }
+
+  .fifteen_width {
+    height: 15%;
+  }
+
+  .ten_vert {
+    width: 10%;
+  }
+
+  .ten_width {
+    height: 10%;
+    text-align: center;
+  }
+
+  .seven_width {
+    height: 7%;
+  }
+
+  .seven_vert {
+    width: 7%;
+  }
+
+  .five_percent{
+    width: 5%;
+    border-radius: 2em;
+  }
+
+  .five_horiz {
+    height: 5%;
+  }
+
+  .two_vert {
+    width: 2%;
+  }
+  
+
+  
+
+
+
+  /*BUTTONS AND MISC*/
+  
+  .selfie {
+    padding-left: 5%;
+    padding-top: 5%;
+    
+  }
+
+  .social_logo {
+    padding-left: 5%;
+  }
+
+  .name_style {
+    color: rgb(238, 38, 81);
+    font: 2.0em "Helvetica", sans-serif, bold;
+
+  }
+  
+  .social_header {
+    font: Helvetica;
+    text-align: center;
+    font-size: 40px;
+  }
+
+  .tab_button:hover{
+    background: rgb(58, 60, 61);
+  } 
+
+  .home_tab:hover {
+    background: rgb(235, 235, 235);
+  }
+
+  .home_style {
+    /* color: rgb(41, 40, 40); */
+    text-decoration: underline;
+    font: 1.6em "Helvetica", sans-serif, bold;
+    font-weight: bold;
+  }
+
+  .tab_style {
+    color: white;
+    font: 1.6em "Helvetica", sans-serif, bold;
+    font-weight: bold;
+  }
+
+  .not_home{
+    text-decoration: none;
+    font: 1.6em "Helvetica", sans-serif;
+    font-weight: bold;
+  }
+
+  a {
+    background: none;
+    opacity: 100%;
+    border-style: none;
+    border-left-width:60%;
+    text-decoration: none;
+    font: bolder;
+  }
+
+  .home_tab {
+    border: none;
+    background: none;
+    font-size: 16px;
+    height: 100%;
+  }
+
+
+  .tab_button{
+    border: none;
+    background: none;
+    font: 16px "Helvetica", sans-serif, bold;
+    height: 100%;
+  }
+
+  .pad {
+    padding-left: 0%;
+    padding-bottom: 10%;
+  }
+
+
+
+/* COLORS */
+
+
+
+  
+
+  .aqua {
+    background-color: aqua;
+  }
+
+  .orange {
+    background-color: rgb(235, 108, 23);
+  }
+
+  .pink {
+    background-color: rgb(238, 38, 81);
+  }
+
+  .blue {
+    background-color: rgb(26, 112, 192);
+  }
+
+  .yellow {
+    background-color: yellow;
+  }
+
+  .white {
+    background-color: white;
+  }
+
+  .black {
+    background-color: black;
+  }
+  
+  .grey {
+    background-color: rgb(41, 40, 40);
+  }
+
+  .light_grey {
+    background: rgb(61, 58, 58);
+  }
+
+  .blue {
+    background-color: white;
+  }
+
+  .turquoise { 
+    background-color: turquoise;
+  }
+  
+
+
+  
